@@ -27,9 +27,52 @@ h1 {
     font-size:25px;
 }
 
-
 .logo {
     height:auto;
     width:50px;
+    border: 3px solid black;
+}
+
+.intro {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 8px;
+    background-color: #DC143C;  
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+button {
+    padding: 4px;
+    margin: 5px;
+    max-width: 80px;
+    margin-left: 10px;
+    font-weight:bold;
+}
+
+
+.introimg {
+    height:auto;
+    max-width:300px;
     border: 5px solid black;
 }
