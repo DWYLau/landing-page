@@ -120,7 +120,8 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
-    width: 600px;
+    font-weight: normal;
+    width: 700px;
 }
 
 .textcontainer {
