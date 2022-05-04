@@ -2,7 +2,7 @@ body {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', arial;
+    font-family:'Roboto', sans-serif;
 }
 
 .header {
@@ -75,4 +75,29 @@ button {
     height:auto;
     max-width:300px;
     border: 5px solid black;
+}
+
+.title {
+    text-align:center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.infoimg {
+    height: 130px;
+    max-width: 200px;
+    border: 5px solid darkblue;
+    border-radius: 25px;
+}
+
+.text {
+    font-size:18px;
+    text-align:center;
 }
