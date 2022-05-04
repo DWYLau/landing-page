@@ -152,7 +152,7 @@ button {
     align-items: center;
     background-color: black;
     color:whitesmoke;
-    position: fixed;
+    position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
