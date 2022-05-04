@@ -122,3 +122,38 @@ button {
     font-style: italic;
     width: 600px;
 }
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:lightblue;
+    width: 600px;
+    margin: auto;
+    gap: 300px;
+    padding:10px;
+}
+
+.signupbutton {
+    margin:5px;
+    padding:5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:whitesmoke;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
